@@ -38,7 +38,7 @@ h1 {
     text-align: center;
     text-decoration: none;
     padding: 10px;
-    font size: 20px;
+    font-size: 15px;
 }
 
 /* Stil på länkar när man hovrar över de */
@@ -53,35 +53,27 @@ h1 {
 
 /* Stil i paragrafer */
 p {
-    color:purple;
+    color:black;
     text-align:center;
 }
 
-/* Stil till paragraf med specifikt ID */
-#intern-länk {
-    color: red;
-    font-style: italic;
+/* Bilder bredvid varandra */
+
+.picture-container {
+    display: flex;
+    justify-content:center;
 }
 
-#bildtext {
-    text-align: left;
+.img {
+    padding-top: 20px;
+    object-fit: cover; 
+    width: 32%;
+    margin: 5px;
+    padding-bottom: 40px;
 }
 
-/* Stil för class */
-.test-classes {
-    color:green;
-}
 
-img {
-    width: 600px;
-    border-width: 10px;
-    border-style: solid;
-    border-color: grey;
-    border-bottom-color: black;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px black;
-}
-
+/* Stil på footer */
 h4 {
     font-size: 30px;
     text-align: center;
